@@ -1,4 +1,4 @@
-package pt.tiago.control;
+package pt.tiago.covidtracker.control;
 
 import org.eclipse.microprofile.rest.client.annotation.RegisterClientHeaders;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;

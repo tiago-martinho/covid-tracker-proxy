@@ -1,13 +1,14 @@
-package pt.tiago.boundary;
+package pt.tiago.covidtracker.boundary;
 
 import org.eclipse.microprofile.rest.client.inject.RestClient;
-import pt.tiago.control.HistoryDataRestClient;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+
+import pt.tiago.covidtracker.control.HistoryDataRestClient;
 
 @Path("/stats")
 public class StatsResource {

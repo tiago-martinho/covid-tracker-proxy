@@ -1,4 +1,4 @@
-package pt.tiago.control;
+package pt.tiago.covidtracker.control;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.eclipse.microprofile.rest.client.ext.ClientHeadersFactory;
