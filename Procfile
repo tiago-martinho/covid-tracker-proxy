@@ -1,1 +1,1 @@
-web: java -jar target/covid-tracker-proxy-1.0-SNAPSHOT-runner.jar
+web: java -Dquarkus.http.port=$PORT -jar target/covid-tracker-proxy-1.0-SNAPSHOT-runner.jar
